@@ -70,4 +70,3 @@ fastlane/test_output
 .DS_Store
 
 #Hidden SecretKey
-SecretKey.swift
