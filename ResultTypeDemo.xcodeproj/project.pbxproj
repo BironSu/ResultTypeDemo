@@ -14,7 +14,7 @@
 		93B0FB3222F345D300A61450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B0FB3022F345D300A61450 /* LaunchScreen.storyboard */; };
 		93B0FB3A22F345FF00A61450 /* YelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0FB3922F345FF00A61450 /* YelpAPIClient.swift */; };
 		93B0FB3C22F346B900A61450 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0FB3B22F346B900A61450 /* Business.swift */; };
-		93B0FB3E22F3511F00A61450 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0FB3D22F3511F00A61450 /* SecretKey.swift */; };
+		93B0FB4022F3552000A61450 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0FB3F22F3552000A61450 /* SecretKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		93B0FB3322F345D300A61450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93B0FB3922F345FF00A61450 /* YelpAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIClient.swift; sourceTree = "<group>"; };
 		93B0FB3B22F346B900A61450 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
-		93B0FB3D22F3511F00A61450 /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
+		93B0FB3F22F3552000A61450 /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 		93B0FB1822F345CE00A61450 = {
 			isa = PBXGroup;
 			children = (
+				93B0FB3F22F3552000A61450 /* SecretKey.swift */,
 				93B0FB2322F345CE00A61450 /* ResultTypeDemo */,
 				93B0FB2222F345CE00A61450 /* Products */,
 			);
@@ -63,7 +64,6 @@
 				93B0FB2422F345CE00A61450 /* AppDelegate.swift */,
 				93B0FB2622F345CE00A61450 /* ViewController.swift */,
 				93B0FB3922F345FF00A61450 /* YelpAPIClient.swift */,
-				93B0FB3D22F3511F00A61450 /* SecretKey.swift */,
 				93B0FB3B22F346B900A61450 /* Business.swift */,
 				93B0FB2E22F345D300A61450 /* Assets.xcassets */,
 				93B0FB3022F345D300A61450 /* LaunchScreen.storyboard */,
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B0FB2722F345CE00A61450 /* ViewController.swift in Sources */,
-				93B0FB3E22F3511F00A61450 /* SecretKey.swift in Sources */,
+				93B0FB4022F3552000A61450 /* SecretKey.swift in Sources */,
 				93B0FB3A22F345FF00A61450 /* YelpAPIClient.swift in Sources */,
 				93B0FB2522F345CE00A61450 /* AppDelegate.swift in Sources */,
 				93B0FB3C22F346B900A61450 /* Business.swift in Sources */,
