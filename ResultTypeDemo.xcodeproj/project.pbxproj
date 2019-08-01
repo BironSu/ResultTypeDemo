@@ -15,6 +15,8 @@
 		93B0FB3A22F345FF00A61450 /* YelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0FB3922F345FF00A61450 /* YelpAPIClient.swift */; };
 		93B0FB3C22F346B900A61450 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0FB3B22F346B900A61450 /* Business.swift */; };
 		93B0FB4022F3552000A61450 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0FB3F22F3552000A61450 /* SecretKey.swift */; };
+		93B0FB4422F356DA00A61450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B0FB4322F356DA00A61450 /* Main.storyboard */; };
+		93B0FB4722F35D0000A61450 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B0FB4622F35D0000A61450 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		93B0FB3922F345FF00A61450 /* YelpAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIClient.swift; sourceTree = "<group>"; };
 		93B0FB3B22F346B900A61450 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		93B0FB3F22F3552000A61450 /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
+		93B0FB4322F356DA00A61450 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93B0FB4622F35D0000A61450 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				93B0FB2422F345CE00A61450 /* AppDelegate.swift */,
 				93B0FB2622F345CE00A61450 /* ViewController.swift */,
+				93B0FB4622F35D0000A61450 /* TableViewCell.swift */,
+				93B0FB4322F356DA00A61450 /* Main.storyboard */,
 				93B0FB3922F345FF00A61450 /* YelpAPIClient.swift */,
 				93B0FB3B22F346B900A61450 /* Business.swift */,
 				93B0FB2E22F345D300A61450 /* Assets.xcassets */,
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B0FB4422F356DA00A61450 /* Main.storyboard in Resources */,
 				93B0FB3222F345D300A61450 /* LaunchScreen.storyboard in Resources */,
 				93B0FB2F22F345D300A61450 /* Assets.xcassets in Resources */,
 			);
@@ -148,6 +155,7 @@
 				93B0FB3A22F345FF00A61450 /* YelpAPIClient.swift in Sources */,
 				93B0FB2522F345CE00A61450 /* AppDelegate.swift in Sources */,
 				93B0FB3C22F346B900A61450 /* Business.swift in Sources */,
+				93B0FB4722F35D0000A61450 /* TableViewCell.swift in Sources */,
 				93B0FB2D22F345CE00A61450 /* ResultTypeDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
