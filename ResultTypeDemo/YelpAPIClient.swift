@@ -31,7 +31,7 @@ class YelpAPIClient {
             if let error = error {
                 completion(.failure(.APIError(error)))
             } else if let data = data {
-                // TODO: using JSONDecoder() parse data to [Business]
+                // TODO: using JSONDecoder() parse data to [Business] DONE
                 do {
                     let business = try JSONDecoder().decode(BusinessesSearch.self, from: data)
                     completion(.success(business.businesses))
